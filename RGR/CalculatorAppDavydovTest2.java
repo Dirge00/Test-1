@@ -13,7 +13,7 @@ public class CalculatorAppDavydovTest2 {
 		c.textField2.setText("5"); //set test in the text field
 		c.textField3.setText("6"); //set test in the text field
 		c.countB.doClick(); //do click on the button
-		assertEquals("2.", c.textField4.getText()); //check results
+		assertEquals("2", c.textField4.getText()); //check results
 		
 	}
 
